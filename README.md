@@ -15,7 +15,7 @@ I've developed modules in data_import.py, common.py, sentiment_engine.py, and th
 * Use this newly generated password for imap login
 
 
-#### Sentiment score results 
+#### Sentiment score results example  
                     Sentence  Vader_Sentiment  \
 0  Assaf Elovic   December 28, 2020     How to bu...           0.0000    
 1  To view the source code, please visit my GitHu...           0.3182   
@@ -39,3 +39,30 @@ I've developed modules in data_import.py, common.py, sentiment_engine.py, and th
 7           0.850000               1.000000  
 8           0.850000               1.000000  
 9           0.500000               1.000000  
+
+
+
+#### Scraped text example 
+(a) real property held for at least 12 months
+the term “real property” means land and 
+includes the following:
+1) qualified conservation easements 
+transferred to a qualified organization as 
+described in sections 2031(c)(8)(b) and 
+170(h) of the internal revenue code
+2) grazing permits or grazing leases 
+issued by the u.s. forest service, the 
+bureau of land management, or the 
+idaho department of lands, but only if 
+the grazing permit or grazing lease was 
+transferred at the same time as the “base 
+property”
+3) depreciable real property as described in 
+section 1250(c) of the internal revenue 
+code, but only if that property was 
+transferred in perpetuity and the transfer 
+was required to be in writing according to 
+idaho code section 9-503.
+(b) tangible personal property used in a 
+revenue-producing enterprise and held for at 
+least 12 months
