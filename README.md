@@ -1,4 +1,4 @@
-I've developed modules in data_import.py, common.py, sentiment_engine.py, and the main.py driver script. I've implemented basic text mining to clean the text and split it into sentences. I've utilized sentiment analysis for each of these sentences using both **VADER** Compound scores within the range of [-1, 1] and **TextBlob**'s Polarity within the range of [-1, 1], along with Subjectivity in the range of [0, 1]. An example of the results is shown in the image below.
+I've developed modules in data_import.py, common.py, sentiment_engine.py, and the main.py driver script. I've implemented basic text mining to clean the text and split it into sentences. I've utilized sentiment analysis for each of these sentences using both **VADER** Compound scores within the range of [-1, 1] and **TextBlob**'s Polarity within the range of [-1, 1], along with Subjectivity in the range of [0, 1]. An example of the results is shown below.
 #### I used the following libraries for this task:
 * vaderSentiment
 * PyMuPDF
