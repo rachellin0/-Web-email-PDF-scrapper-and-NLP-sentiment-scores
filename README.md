@@ -1,5 +1,11 @@
 I've developed modules in data_import.py, common.py, sentiment_engine.py, and the main.py driver script. I've implemented basic text mining to clean the text and split it into sentences. I've utilized sentiment analysis for each of these sentences using both **VADER** Compound scores within the range of [-1, 1] and **TextBlob**'s Polarity within the range of [-1, 1], along with Subjectivity in the range of [0, 1]. An example of the results is shown below.
-#### I used the following libraries for this task:
+
+#### In order to execute the main.py, kindly replace it with your actual email address and generate a temporary password as below: 
+* Enable the IMAP Access at: Gmail Settings> Forwarding and POP / IMAP> IMAP Acess
+* Enable 2-factor authentication for the google account
+* generate an app-specific password (https://myaccount.google.com/apppasswords)
+* Use this newly generated password for imap login
+#### Download the following libraries for this task:
 * vaderSentiment
 * PyMuPDF
 * requests
@@ -7,13 +13,6 @@ I've developed modules in data_import.py, common.py, sentiment_engine.py, and th
 #### To support text mining, I used the following resources:
 * nltk.download('punkt')
 * nltk.download('stopwords')
-
-#### In order to execute the main.py, kindly replace it with your actual email address and generate a temporary password as below: 
-* Enable the IMAP Access at: Gmail Settings> Forwarding and POP / IMAP> IMAP Acess
-* Enable 2-factor authentication for the google account
-* generate an app-specific password (https://myaccount.google.com/apppasswords)
-* Use this newly generated password for imap login
-
 
 #### Sentiment score results example  
                     Sentence  Vader_Sentiment  \
